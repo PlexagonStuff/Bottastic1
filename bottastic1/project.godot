@@ -46,7 +46,7 @@ _global_script_class_icons={
 
 config/name="bottastic1"
 run/main_scene="res://Bottastic.tscn"
-config/icon="res://icon.png"
+config/icon="res://addons/gift/765060690540625920.png"
 
 [editor_plugins]
 
