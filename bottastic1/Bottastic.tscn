@@ -28,3 +28,8 @@ __meta__ = {
 position = Vector2( 514.028, 304.703 )
 scale = Vector2( 10.2885, 6.11301 )
 texture = ExtResource( 2 )
+
+[node name="Timer" type="Timer" parent="."]
+wait_time = 1200.0
+autostart = true
+[connection signal="timeout" from="Timer" to="Gift" method="_on_Timer_timeout"]
